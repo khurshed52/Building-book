@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-6 col-12">
                         <div class="banner-two__content">
-                            <h3>
+                            <h3 data-wow-iteration="3" data-wow-duration="0.15" class="wow pulse" style="visibility: visible; animation-iteration-count: 3; animation-name: pulse;">
                                 Lorem Ipsum is simply dummy text of the printing 
                             </h3>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply <br> It has roots in a piece of classical Latin literature</p>
@@ -113,7 +113,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-6 col-12">
-                        <div class="text-center dash_img"> 
+                        <div class="text-center dash_img wow bounceInLeft" style="visibility: visible; animation-name: rollIn;"> 
                             <img src="assets/images/app.png" alt="text">
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-6 col-12">
-                        <div class="text-center dash_img"> 
+                        <div class="text-center dash_img wow lightSpeedIn" style="visibility: visible; animation-name: lightSpeedIn;"> 
                             <img src="assets/images/app.png" alt="text">
                         </div>
                     </div>
@@ -167,7 +167,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-6 col-12">
-                        <div class="text-center dash_img"> 
+                        <div class="text-center dash_img wow bounceInLeft" style="visibility: visible; animation-name: rollIn;"> 
                             <img src="assets/images/app.png" alt="text">
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-6 col-12">
-                        <div class="text-center dash_img"> 
+                        <div class="text-center dash_img  wow lightSpeedIn" style="visibility: visible; animation-name: lightSpeedIn;"> 
                             <img src="assets/images/app.png" alt="text">
                         </div>
                     </div>
@@ -221,7 +221,7 @@
     <!--demo-->
     <section>
         <div class="container">
-            <div class="inner-container">
+            <div class="inner-container wow bounceInUp" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
                 <h3>Want to demo of product</h3>
                 <a href="#" class="thm-btn demo_btn">Request Now</a>
             </div>
@@ -292,6 +292,9 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script>
+        new WOW().init();
+        </script>
 </body>
 
 </html>
