@@ -191,4 +191,23 @@
 
     });
 
+   /*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal('.banner-two__content',{}); 
+sr.reveal('.banner-two__content p',{delay: 200}); 
+sr.reveal('.banner-two__btn-block',{ delay: 400});
+sr.reveal('.banner-svg',{ delay: 600});    
+
+sr.reveal('.block-title h4',{ delay: 200}); 
+sr.reveal('.clients row',{ delay: 400});
+
+sr.reveal('.dash_img',{ delay: 200});
+sr.reveal('.block-title',{ delay: 400});
+
 })(jQuery);
